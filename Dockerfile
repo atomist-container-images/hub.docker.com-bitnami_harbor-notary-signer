@@ -1,12 +1,24 @@
-# Tags: latest, 2.4.2-debian-10-r14, 2.4.2, 2-debian-10, 2
+# Tags: latest, 2.4.2-debian-10-r18, 2.4.2, 2-debian-10, 2
 FROM bitnami/harbor-notary-signer:latest
-FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r14
+FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r18
 FROM bitnami/harbor-notary-signer:2.4.2
 FROM bitnami/harbor-notary-signer:2-debian-10
 FROM bitnami/harbor-notary-signer:2
 
 # Tags: _
 FROM bitnami/harbor-notary-signer:_
+
+# Tags: 2.4.2-debian-10-r17
+FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r17
+
+# Tags: 2.4.2-debian-10-r16
+FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r16
+
+# Tags: 2.4.2-debian-10-r15
+FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r15
+
+# Tags: 2.4.2-debian-10-r14
+FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r14
 
 # Tags: 2.4.2-debian-10-r13
 FROM bitnami/harbor-notary-signer:2.4.2-debian-10-r13
@@ -83,21 +95,3 @@ FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r80
 
 # Tags: 2.4.1-debian-10-r79
 FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r79
-
-# Tags: 2.4.1-debian-10-r78
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r78
-
-# Tags: 2.4.1-debian-10-r77
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r77
-
-# Tags: 2.4.1-debian-10-r76
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r76
-
-# Tags: 2.4.1-debian-10-r75
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r75
-
-# Tags: 2.4.1-debian-10-r74
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r74
-
-# Tags: 2.4.1-debian-10-r73
-FROM bitnami/harbor-notary-signer:2.4.1-debian-10-r73
